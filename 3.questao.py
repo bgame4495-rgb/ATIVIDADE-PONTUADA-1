@@ -8,8 +8,10 @@ multiplicação = numero1 * numero2
 
 if numero1 == numero2: 
     C = numero1 + numero2
-    print("soma")
+    
     
 else: 
-    c = numero1 * numero2
-    print("multiplicação")
+    C = numero1 * numero2
+    
+
+print(f"valor de c: {C}")
