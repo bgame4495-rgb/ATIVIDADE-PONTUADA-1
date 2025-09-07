@@ -2,24 +2,29 @@ import os
 os.system ("cls")
 
 
-valor1 = float(input("digite o valor 1: "))
-valor2 = float(input("digite valor 2: "))
+
+valor1 = int(input("digite o valor 1: "))
+valor2 = int(input("digite valor 2: "))
 operacao = input("Digite qual operação usar: ")
 
+ 
 
 
-match operacao:
-    case "+":
-        print({valor1} + {valor2})
-    case "-":
-         print({valor1} - {valor2})
-    case "*":
-         print(float({valor1} * {valor2}))
-    case "/":
-        print({valor1} / {valor2})
+if operacao == "+":
+    	resultado = valor1 + valor2 
+elif operacao == "-":
+    	resultado = valor1 - valor2
+elif operacao == "*":
+    	resultado = valor1 * valor2
+elif operacao == '/':
+       resultado = valor1 / valor2
+else:	
+	    print("operacao invalida")
+	    resultado = 0
     
-print("fim")
-  
+print(f"resultado: {resultado}")
+
+
 
 
     
