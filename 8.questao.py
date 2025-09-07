@@ -1,6 +1,5 @@
-
 import os
-os.sytem("cls")
+os.system("cls")
 
 cor= input("Escolha a cor desejada: ")
 
