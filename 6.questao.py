@@ -1,8 +1,8 @@
 import os
 os.system ("cls")
 
-nota1 = float(input(f"nota 1: "))
-nota2 = float(input(f"nota2: "))
+nota1 = float(input(f"Nota do 1° Semestre: "))
+nota2 = float(input(f"Nota do 2° Semestre: "))
 
 media = nota1 + nota2 /2 
  
